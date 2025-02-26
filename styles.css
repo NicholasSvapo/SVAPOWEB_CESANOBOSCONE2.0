@@ -1,4 +1,13 @@
 body {
+    .whatsapp-button img {
+    width: 40px;
+    height: 40px;
+}
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -51,14 +60,4 @@ footer {
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.whatsapp-button img {
-    width: 40px;
-    height: 40px;
-}
-
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
